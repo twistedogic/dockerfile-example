@@ -28,6 +28,7 @@ RUN npm install -g casperjs
 RUN npm install -g generator-karma-jquery
 RUN npm install -g instant-server
 RUN npm install -g protractor
+RUN npm install -g pageres
 RUN \
   echo "# Install OpenSSH Server" ;\
   apt-get -q -y install openssh-server ;\

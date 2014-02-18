@@ -27,6 +27,7 @@ RUN npm install -g levelmeup
 RUN npm install -g expressworks@latest
 RUN npm install -g promise-it-wont-hurt@latest
 RUN npm install -g async-you
+RUN npm install -g scripted
 RUN \
   echo "# Install OpenSSH Server" ;\
   apt-get -q -y install openssh-server ;\
